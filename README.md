@@ -1,2 +1,1 @@
 # ai
-artificial intelligence
