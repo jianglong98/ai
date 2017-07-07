@@ -10,6 +10,7 @@ def sigmoid(x):
     """
 
     #TODO sigmoid function
+    # To review sigmoid formula in URL https://en.wikipedia.org/wiki/Sigmoid_function
     return 1/(1+np.exp(-x))
 
 def dsigmoid(x):
@@ -19,6 +20,7 @@ def dsigmoid(x):
     :return: derivative value (array like)
     """
     #TODO dsigmoid function
+    # To review derivative from sigmoid in URL https://math.stackexchange.com/questions/78575/derivative-of-sigmoid-function-sigma-x-frac11e-x
     a=sigmoid(x)
     return a*(1-a)
 
@@ -162,7 +164,7 @@ class MLP:
             order = np.random.permutation(n_samples)
             X = X[order, :]
             y = y[order]
-            
+
 
             # iterate every batch
             for batch in xrange(0, n_samples, self.batch_size):
