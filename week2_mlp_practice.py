@@ -10,7 +10,7 @@ def sigmoid(x):
     """
 
     #TODO sigmoid function
-
+    return 1/(1+np.exp(-x))
 
 def dsigmoid(x):
     """
@@ -19,6 +19,8 @@ def dsigmoid(x):
     :return: derivative value (array like)
     """
     #TODO dsigmoid function
+    a=sigmoid(x)
+    return a*(1-a)
 
 
 def tanh(x):
@@ -28,7 +30,7 @@ def tanh(x):
     :return: tanh value (array like)
     """
     #TODO tanh function
-
+    return (np.exp(x)-np.exp(-x)) / (np.exp(x)+np.exp(-x))
 
 def dtanh(x):
     """
@@ -37,7 +39,8 @@ def dtanh(x):
     :return: derivative value (array like)
     """
     #TODO dtanh function
-
+    a=tanh(x)
+    return 1-a**2
 
 def softmax(X):
     """
@@ -46,7 +49,7 @@ def softmax(X):
     :return:
     """
     #TODO softmax function
-
+    return np.exp(x) / np.sum(np.exp(x), axis=0)
 
 class MLP:
     def __init__(self, input_size, output_size, hidden_layer_size=[100], batch_size=200, activation="sigmoid", output_layer='softmax', loss='cross_entropy', lr=0.01, reg_lambda=0.0001, momentum=0.9, verbose=10):
@@ -156,6 +159,10 @@ class MLP:
 
             # shuffle data
             #TODO shuffle data
+            order = np.random.permutation(n_samples)
+            X = X[order, :]
+            y = y[order]
+            
 
             # iterate every batch
             for batch in xrange(0, n_samples, self.batch_size):
