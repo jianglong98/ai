@@ -51,7 +51,7 @@ def softmax(X):
     :return:
     """
     #TODO softmax function
-    return np.exp(x) / np.sum(np.exp(x), axis=0)
+    return (np.exp(X).T / np.sum(np.exp(X), axis=1)).T
 
 class MLP:
     def __init__(self, input_size, output_size, hidden_layer_size=[100], batch_size=200, activation="sigmoid", output_layer='softmax', loss='cross_entropy', lr=0.01, reg_lambda=0.0001, momentum=0.9, verbose=10):
@@ -168,8 +168,10 @@ class MLP:
 
             # iterate every batch
             for batch in xrange(0, n_samples, self.batch_size):
-                #TODO call forward function
-                #TODO call backward function
+                # TODO call forward function
+                self.forward(X[batch:batch + self.batch_size])
+                # TODO call backward function
+                self.backward(X[batch:batch + self.batch_size], y)
 
             if i % self.verbose == 0:
                 # Compute Loss and Training Accuracy
@@ -190,11 +192,15 @@ class MLP:
         probs = self.forward(X)
 
         # TODO Calculating the loss
-        
+        m = y.shape[0]
+        b = np.zeros((y.shape[0], self.output_size))
+        for i in range(m):
+            b[i,y[i]] = 1
+        data_loss = np.sum(-b * np.log(probs) - (1 - b) * np.log(1 - probs))
 
 
         # TODO Add regularization term to loss
-        
+        data_loss += + self.reg_lambda/2 * np.sum(self.weights[-1] * self.weights[-1])
 
         return 1. / n_samples * data_loss
 
@@ -203,10 +209,12 @@ class MLP:
         self.layers[0] = X
 
         # TODO hidden layers
-       
+        for i in range(1, self.n_layers + 1):
+            self.layers[i] = self.activation_func(np.dot(self.layers[i - 1], self.weights[i - 1]) + self.bias[i - 1])
 
         # TODO output layer (Note here the activation is using output_layer func)
-        
+        self.layers[-1] = self.output_layer(np.dot(self.layers[self.n_layers],
+                                                   self.weights[self.n_layers]) + self.bias[self.n_layers])
 
         return self.layers[-1]
 
@@ -214,12 +222,38 @@ class MLP:
         if self.loss == 'cross_entropy':
             self.deltas[-1] = self.layers[-1]
             # cross_entropy loss backprop
-            self.deltas[-1][range(X.shape[0]), y] -= 1
+            n_samples = X.shape[0]
 
+            m = y.shape[0]
+            b = np.zeros((y.shape[0], self.output_size))
+            for i in range(m):
+                b[i, y[i]] = 1
+
+            # print(b[:n_samples].shape)
+            # print(self.deltas[-1].shape)
+            # self.deltas[range(n_samples), b] -= 1
+            # self.deltas /= n_samples
+            self.deltas[-1] = (b[:n_samples] - self.deltas[-1]) * self.activation_dfunc(self.layers[-1])
+            # dW = self.deltas[-1] * self.layers[self.n_layers] + self.reg_lambda * self.weights[-1]
+            dW = np.dot(self.layers[self.n_layers].T, self.deltas[-1]) + self.reg_lambda * self.weights[-1]
+            dB = np.sum(self.deltas[-1], axis=0)
+            self.weights[-1] += -1. * self.lr * dW
+            # print(self.weights[-1].shape)
+            # print(self.bias[-1].shape)
+            # print(self.deltas[-1].shape)
+            # print(dB.shape)
+            self.bias[-1] += -1. * self.lr * dB
+
+        for i in range(self.n_layers-1, -1, -1):
         # TODO update deltas
-        
-        # TODO update weights
+        ai = self.activation_dfunc(self.layers[i + 1])
+        self.deltas[i] = np.dot(self.deltas[i + 1], self.weights[i + 1].T) * ai
 
+        # TODO update weights
+        dW = np.dot(self.layers[i].T, self.deltas[i]) + self.reg_lambda * self.weights[i]
+        dB = np.sum(self.deltas[i], axis=0)
+        self.weights[i] += -1. * self.lr * dW
+        self.bias[i] += -1. * self.lr * dB
     
     def predict(self, X):
         """
@@ -239,6 +273,10 @@ class MLP:
         n_samples = X.shape[0]
         
         # TODO compute accuracy
+        probs = self.predict(X)
+        preds = np.argmax(probs, axis=1)
+        # print(probs)
+        acc = np.mean(preds == y[:n_samples])
         
         return acc
 
