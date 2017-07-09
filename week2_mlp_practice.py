@@ -246,8 +246,8 @@ class MLP:
 
         for i in range(self.n_layers-1, -1, -1):
         # TODO update deltas
-        ai = self.activation_dfunc(self.layers[i + 1])
-        self.deltas[i] = np.dot(self.deltas[i + 1], self.weights[i + 1].T) * ai
+            ai = self.activation_dfunc(self.layers[i + 1])
+            self.deltas[i] = np.dot(self.deltas[i + 1], self.weights[i + 1].T) * ai
 
         # TODO update weights
         dW = np.dot(self.layers[i].T, self.deltas[i]) + self.reg_lambda * self.weights[i]
