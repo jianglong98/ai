@@ -2,40 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ec3f93ba-eb5c-4b6d-a314-8c9391e5b2f6" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/DS502" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/DS502-AI-Engineer" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/aws_learning" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Lenna.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MXNet Sym.ipynb" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/README.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Unconfirmed 350952.crdownload" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/homework1/class1_linear_regression.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/homework1/class1_logistic_regression.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/homework1/class1_softmax_regression.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/homework1/week1_homework_solution.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mxnet basic NDArray.ipynb" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mxnet config.ipynb" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mxnet/Lenna.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mxnet/MXNet Sym.ipynb" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mxnet/README.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mxnet/Unconfirmed 350952.crdownload" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mxnet/mxnet basic NDArray.ipynb" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mxnet/mxnet config.ipynb" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/w1c1/class1_linear_regression.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/w1c1/class1_logistic_regression.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/w1c1/class1_softmax_regression.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/w1c1/week1_homework_solution.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/w1c2/binarize_data.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/w1c2/normalize_data.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/w1c2/pima-indians-diabetes.data.csv" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/w1c2/rescale_data.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/w1c2/standardize_data.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/w2c1/week2_mlp_practice.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/w2c2/batch_gradient_descent.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/w2c2/pima-indians-diabetes.data.csv" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/w2c2/stochastic_gradient_descent.py" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/MXNET_course" afterPath="$PROJECT_DIR$/MXNET_course" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/aws_learning" afterPath="$PROJECT_DIR$/aws_learning" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="$PROJECT_DIR$/.idea/" />
@@ -92,6 +60,20 @@
       <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ai" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ai" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="MXNET_course" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
           <PATH>
             <PATH_ELEMENT>
               <option name="myItemId" value="ai" />
@@ -389,7 +371,28 @@
       <option name="project" value="LOCAL" />
       <updated>1499891295895</updated>
     </task>
-    <option name="localTasksCounter" value="18" />
+    <task id="LOCAL-00018" summary="update">
+      <created>1499893007451</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1499893007451</updated>
+    </task>
+    <task id="LOCAL-00019" summary="update">
+      <created>1499893081579</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1499893081579</updated>
+    </task>
+    <task id="LOCAL-00020" summary="update">
+      <created>1499893102465</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1499893102465</updated>
+    </task>
+    <option name="localTasksCounter" value="21" />
     <servers />
   </component>
   <component name="ToolWindowManager">
