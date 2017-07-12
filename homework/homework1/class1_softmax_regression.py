@@ -79,7 +79,7 @@ def softmax_regression():
     plt.plot(cost_iter[:, 0], cost_iter[:, 1])
     plt.ylabel("Cost")
     plt.xlabel("Iteration")
-    plt.show()
+    plt.show(block=True)
 
 
 def main():
