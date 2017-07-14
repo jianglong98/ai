@@ -2,5 +2,9 @@
 <project version="4">
   <component name="VcsDirectoryMappings">
     <mapping directory="$PROJECT_DIR$" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/DS502" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/DS502-AI-Engineer" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/MXNET_course" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/aws_learning" vcs="Git" />
   </component>
 </project>
