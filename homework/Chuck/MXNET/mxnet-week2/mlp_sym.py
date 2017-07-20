@@ -44,26 +44,28 @@ def get_mlp_sym():
     return mlp
 
 
-def conv_layer(if_pool=False):
+def conv_layer(input_layer,
+               kernel_size=(3,3),
+               kernel_num=32,
+               stride=(1,1),
+               pad=(0, 0),
+               activation='relu',
+               pooling=True,
+               pool_type="max",
+               pool_size=(2,2),
+               pool_stride=(2,2),
+               BN=True):
     """
     :return: a single convolution layer symbol
     """
-    # todo: Design the simplest convolution layer
-    # Find the doc of mx.sym.Convolution by help command
-    # Do you need BatchNorm?
-    # Do you need pooling?
-    # What is the expected output shape?
-
-    pass
-
-
-# Optional
-def inception_layer():
-    """
-    Implement the inception layer in week3 class
-    :return: the symbol of a inception layer
-    """
-    pass
+    l = mx.sym.Convolution(data=input_layer, kernel=kernel_size, num_filter=kernel_num,stride=stride, pad=pad)
+    if BN:
+        l = mx.sym.BatchNorm(l)
+    if activation is not None:
+        l = mx.sym.Activation(data=l, act_type=activation)
+    if pooling:
+        l = mx.sym.Pooling(data=l, pool_type=pool_type, kernel=pool_size, stride=pool_stride)
+    return l
 
 
 def get_conv_sym():
@@ -76,4 +78,11 @@ def get_conv_sym():
     # How deep the network do you want? like 4 or 5
     # How wide the network do you want? like 32/64/128 kernels per layer
     # How is the convolution like? Normal CNN? Inception Module? VGG like?
-    pass
+    l = conv_layer(input_layer=data,kernel_num=64, activation="relu")
+    l = conv_layer(input_layer=l,kernel_num=128, activation="relu")
+    l = mlp_layer(input_layer=l, n_hidden=100, activation="relu", BN=True)
+    # MNIST has 10 classes
+    l = mx.sym.FullyConnected(data=l, num_hidden=10)
+    # Softmax with cross entropy loss
+    cnn = mx.sym.SoftmaxOutput(data=l, name='softmax')
+    return cnn

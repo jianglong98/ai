@@ -1,9 +1,9 @@
 import mxnet as mx
-import numpy as np
-import cv2
+#import numpy as np
+#import cv2
 import logging
 from data import get_mnist
-from mlp_sym import get_mlp_sym
+from mlp_sym import get_conv_sym
 logging.getLogger().setLevel(logging.DEBUG)  # logging to stdout
 
 if __name__=="__main__":
@@ -13,15 +13,15 @@ if __name__=="__main__":
     train_iter, val_iter = get_mnist(batch_size)
 
     # Get symbol
-    model = get_mlp_sym()
+    cnn_model = get_conv_sym()
     # todo: model = get_conv_sym()
 
     # Viz the graph and save the plot for debugging
     #plot = mx.viz.plot_network(model, title="mlp", save_format="pdf", hide_weights=True)
     #plot.render("MLP")
 
-    # create a trainable module on CPU/GPU
-    mod = mx.mod.Module(symbol=model, context=mx.cpu())
+    # create a trainable module on CPU
+    mod = mx.mod.Module(symbol=cnn_model, context=mx.cpu())
     mod.fit(train_iter,  # train data
             eval_data=val_iter,  # validation data
             optimizer='sgd',  # use SGD to train
@@ -29,9 +29,9 @@ if __name__=="__main__":
             eval_metric='acc',  # report accuracy during training
             batch_end_callback=mx.callback.Speedometer(batch_size, 100),
             # output progress for each 100 data batches
-            num_epoch=10)  # train for at most 10 dataset passes
+            num_epoch=5)# train for at most 5 dataset passes
 
-# MLP running result on July 20
-# INFO:root:Epoch[9] Train-accuracy=0.993333
-# INFO:root:Epoch[9] Time cost=1.936
-# INFO:root:Epoch[9] Validation-accuracy=0.975700
+# CNN running result on July 20
+# INFO:root:Epoch[4] Train-accuracy=0.998889
+# INFO:root:Epoch[4] Time cost=148.600
+# INFO:root:Epoch[4] Validation-accuracy=0.992300

@@ -2,21 +2,11 @@
  "cells": [
   {
    "cell_type": "code",
-   "execution_count": 4,
-   "metadata": {},
-   "outputs": [
-    {
-     "ename": "ImportError",
-     "evalue": "No module named data",
-     "traceback": [
-      "\u001b[0;31m---------------------------------------------------------------------------\u001b[0m",
-      "\u001b[0;31mImportError\u001b[0m                               Traceback (most recent call last)",
-      "\u001b[0;32m<ipython-input-4-379cc2bc87b5>\u001b[0m in \u001b[0;36m<module>\u001b[0;34m()\u001b[0m\n\u001b[1;32m      3\u001b[0m \u001b[0;32mimport\u001b[0m \u001b[0mcv2\u001b[0m\u001b[0;34m\u001b[0m\u001b[0m\n\u001b[1;32m      4\u001b[0m \u001b[0;32mimport\u001b[0m \u001b[0mlogging\u001b[0m\u001b[0;34m\u001b[0m\u001b[0m\n\u001b[0;32m----> 5\u001b[0;31m \u001b[0;32mfrom\u001b[0m \u001b[0mdata\u001b[0m \u001b[0;32mimport\u001b[0m \u001b[0mget_mnist\u001b[0m\u001b[0;34m\u001b[0m\u001b[0m\n\u001b[0m\u001b[1;32m      6\u001b[0m \u001b[0;32mfrom\u001b[0m \u001b[0mmlp_sym\u001b[0m \u001b[0;32mimport\u001b[0m \u001b[0mget_mlp_sym\u001b[0m\u001b[0;34m\u001b[0m\u001b[0m\n\u001b[1;32m      7\u001b[0m \u001b[0;32mfrom\u001b[0m \u001b[0mmlp_sym\u001b[0m \u001b[0;32mimport\u001b[0m \u001b[0mget_conv_sym\u001b[0m\u001b[0;34m\u001b[0m\u001b[0m\n",
-      "\u001b[0;31mImportError\u001b[0m: No module named data"
-     ],
-     "output_type": "error"
-    }
-   ],
+   "execution_count": 1,
+   "metadata": {
+    "collapsed": true
+   },
+   "outputs": [],
    "source": [
     "import mxnet as mx\n",
     "import numpy as np\n",
@@ -33,9 +23,20 @@
   },
   {
    "cell_type": "code",
-   "execution_count": null,
+   "execution_count": 2,
    "metadata": {},
-   "outputs": [],
+   "outputs": [
+    {
+     "name": "stderr",
+     "output_type": "stream",
+     "text": [
+      "INFO:root:train-labels-idx1-ubyte.gz exists, skip to downloada\n",
+      "INFO:root:train-images-idx3-ubyte.gz exists, skip to downloada\n",
+      "INFO:root:t10k-labels-idx1-ubyte.gz exists, skip to downloada\n",
+      "INFO:root:t10k-images-idx3-ubyte.gz exists, skip to downloada\n"
+     ]
+    }
+   ],
    "source": [
     "# Get the data iterator\n",
     "batch_size = 100\n",
@@ -44,30 +45,65 @@
   },
   {
    "cell_type": "code",
-   "execution_count": null,
+   "execution_count": 3,
    "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "/Users/jianglong/Google Drive/AI-DS502/ai/homework/Chuck/MXNET/mxnet-week2\n"
+     ]
+    }
+   ],
+   "source": [
+    "import os\n",
+    "cwd = os.getcwd()\n",
+    "print(cwd)"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 5,
+   "metadata": {
+    "collapsed": true
+   },
    "outputs": [],
    "source": [
     "# Get MLP symbol\n",
     "mlp_model = get_mlp_sym()\n",
     "# Viz the graph and save the plot for debugging\n",
-    "plot = mx.viz.plot_network(mlp_model, title=\"mlp\", save_format=\"pdf\", hide_weights=True)\n",
-    "plot.render(\"MLP\")"
+    "#plot = mx.viz.plot_network(mlp_model, title=\"mlp\", save_format=\"pdf\", hide_weights=True)\n",
+    "#plot.render(\"MLP\")"
    ]
   },
   {
    "cell_type": "heading",
-   "metadata": {},
    "level": 1,
-   "source": [
-    ""
-   ]
+   "metadata": {},
+   "source": []
   },
   {
    "cell_type": "code",
    "execution_count": null,
    "metadata": {},
-   "outputs": [],
+   "outputs": [
+    {
+     "name": "stderr",
+     "output_type": "stream",
+     "text": [
+      "INFO:root:Epoch[0] Batch [100]\tSpeed: 21035.36 samples/sec\taccuracy=0.788416\n",
+      "INFO:root:Epoch[0] Batch [200]\tSpeed: 18776.59 samples/sec\taccuracy=0.914600\n",
+      "INFO:root:Epoch[0] Batch [300]\tSpeed: 21355.11 samples/sec\taccuracy=0.932000\n",
+      "INFO:root:Epoch[0] Batch [400]\tSpeed: 16826.38 samples/sec\taccuracy=0.933300\n",
+      "INFO:root:Epoch[0] Batch [500]\tSpeed: 19583.88 samples/sec\taccuracy=0.942300\n",
+      "INFO:root:Epoch[0] Train-accuracy=0.948990\n",
+      "INFO:root:Epoch[0] Time cost=3.156\n",
+      "INFO:root:Epoch[0] Validation-accuracy=0.947100\n",
+      "INFO:root:Epoch[1] Batch [100]\tSpeed: 20187.55 samples/sec\taccuracy=0.952079\n"
+     ]
+    }
+   ],
    "source": [
     "# create a trainable module on CPU\n",
     "mod = mx.mod.Module(symbol=mlp_model, context=mx.cpu())\n",
@@ -83,16 +119,16 @@
   },
   {
    "cell_type": "heading",
-   "metadata": {},
    "level": 1,
-   "source": [
-    ""
-   ]
+   "metadata": {},
+   "source": []
   },
   {
    "cell_type": "code",
    "execution_count": null,
-   "metadata": {},
+   "metadata": {
+    "collapsed": true
+   },
    "outputs": [],
    "source": [
     "# create a trainable module on GPU\n",
@@ -109,16 +145,16 @@
   },
   {
    "cell_type": "heading",
-   "metadata": {},
    "level": 1,
-   "source": [
-    ""
-   ]
+   "metadata": {},
+   "source": []
   },
   {
    "cell_type": "code",
    "execution_count": null,
-   "metadata": {},
+   "metadata": {
+    "collapsed": true
+   },
    "outputs": [],
    "source": [
     "# Get CNN symbol\n",
@@ -130,16 +166,16 @@
   },
   {
    "cell_type": "heading",
-   "metadata": {},
    "level": 1,
-   "source": [
-    ""
-   ]
+   "metadata": {},
+   "source": []
   },
   {
    "cell_type": "code",
    "execution_count": null,
-   "metadata": {},
+   "metadata": {
+    "collapsed": true
+   },
    "outputs": [],
    "source": [
     "# create a trainable module on CPU/GPU\n",
@@ -156,16 +192,16 @@
   },
   {
    "cell_type": "heading",
-   "metadata": {},
    "level": 1,
-   "source": [
-    ""
-   ]
+   "metadata": {},
+   "source": []
   },
   {
    "cell_type": "code",
    "execution_count": null,
-   "metadata": {},
+   "metadata": {
+    "collapsed": true
+   },
    "outputs": [],
    "source": [
     "# create a trainable module on CPU/GPU\n",
@@ -182,14 +218,15 @@
   },
   {
    "cell_type": "heading",
-   "metadata": {},
    "level": 1,
+   "metadata": {},
    "source": [
     "Compare MLP and CNN"
    ]
   },
   {
-   "cell_type": "markdown",
+   "cell_type": "heading",
+   "level": 2,
    "metadata": {},
    "source": [
     "compare\n",
@@ -198,6 +235,24 @@
     "CPU Epoch time\t3.431\t79.036\n",
     "GPU Epoch Time(optional)\t1.191\t9.669"
    ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 2,
+   "metadata": {
+    "collapsed": true
+   },
+   "outputs": [],
+   "source": []
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "metadata": {
+    "collapsed": true
+   },
+   "outputs": [],
+   "source": []
   }
  ],
  "metadata": {
@@ -209,16 +264,16 @@
   "language_info": {
    "codemirror_mode": {
     "name": "ipython",
-    "version": 2.0
+    "version": 2
    },
    "file_extension": ".py",
    "mimetype": "text/x-python",
    "name": "python",
    "nbconvert_exporter": "python",
    "pygments_lexer": "ipython2",
-   "version": "2.7.12"
+   "version": "2.7.13"
   }
  },
  "nbformat": 4,
- "nbformat_minor": 0
+ "nbformat_minor": 1
 }
