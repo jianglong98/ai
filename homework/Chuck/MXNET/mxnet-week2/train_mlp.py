@@ -17,8 +17,8 @@ if __name__=="__main__":
     # todo: model = get_conv_sym()
 
     # Viz the graph and save the plot for debugging
-    #plot = mx.viz.plot_network(model, title="mlp", save_format="pdf", hide_weights=True)
-    #plot.render("MLP")
+    plot = mx.viz.plot_network(model, title="mlp", save_format="pdf", hide_weights=True)
+    plot.render("MLP")
 
     # create a trainable module on CPU/GPU
     mod = mx.mod.Module(symbol=model, context=mx.cpu())
