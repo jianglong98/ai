@@ -16,12 +16,13 @@ def linear_grad_func(theta, x, y):
     # compute gradient
     grad = np.dot((linear_val_func(theta, x) - y).T, np.c_[np.ones(x.shape[0]), x])
     grad = grad / x.shape[0]
-
     return grad
 
 
 def linear_val_func(theta, x):
     # forwarding
+    # add bias 1 to column1
+
     return np.dot(np.c_[np.ones(x.shape[0]), x], theta.T)
 
 
