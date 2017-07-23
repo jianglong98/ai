@@ -27,9 +27,9 @@ if __name__ == '__main__':
             "Hours per week", "Country", "Target"],
         sep=r'\s*,\s*',
         engine='python',
-        na_values="?")
+        na_values=" ")
 
-    print "Data with missing values set to Nan:"
+    print "Data with missing values set to NaN (Not a Number)"
     print original_data
     print '\n'
 
