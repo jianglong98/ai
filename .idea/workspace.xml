@@ -1,39 +1,35 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="ec3f93ba-eb5c-4b6d-a314-8c9391e5b2f6" name="Default" comment="new update on july 17">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/homework/Jason/homework1/f1453463-3524-4a82-b91e-b24205c512c9.htm" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/homework/Jason/homework1/f1453463-3524-4a82-b91e-b24205c512c9_files/1758244337754049" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/homework/Jason/homework1/f1453463-3524-4a82-b91e-b24205c512c9_files/3988b61c7c023613eca2f6c6e553e8aaff7e9c47.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/homework/Jason/homework1/f1453463-3524-4a82-b91e-b24205c512c9_files/5057799a045eb5cfeed036d9a809596b2f47189e.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/homework/Jason/homework1/f1453463-3524-4a82-b91e-b24205c512c9_files/832164812b6e8c264056d21af070a17a6f559718.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/homework/Jason/homework1/f1453463-3524-4a82-b91e-b24205c512c9_files/a9c605ab73eefe0896762ff1c28f5f17b66e3321.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/homework/Jason/homework1/f1453463-3524-4a82-b91e-b24205c512c9_files/analytics.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/homework/Jason/homework1/f1453463-3524-4a82-b91e-b24205c512c9_files/autotrack.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/homework/Jason/homework1/f1453463-3524-4a82-b91e-b24205c512c9_files/bitmovinplayer.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/homework/Jason/homework1/f1453463-3524-4a82-b91e-b24205c512c9_files/fbevents.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/homework/Jason/homework1/f1453463-3524-4a82-b91e-b24205c512c9_files/flowplayer.hlsjs.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/homework/Jason/homework1/f1453463-3524-4a82-b91e-b24205c512c9_files/flowplayer.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/homework/Jason/homework1/f1453463-3524-4a82-b91e-b24205c512c9_files/flowplayer.quality-selector.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/homework/Jason/homework1/f1453463-3524-4a82-b91e-b24205c512c9_files/flowplayer.quality-selector.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/homework/Jason/homework1/f1453463-3524-4a82-b91e-b24205c512c9_files/hotjar-475739.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/homework/Jason/homework1/f1453463-3524-4a82-b91e-b24205c512c9_files/minimalist.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/homework/Jason/homework1/f1453463-3524-4a82-b91e-b24205c512c9_files/mixpanel-2-latest.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/homework/Jason/homework1/f1453463-3524-4a82-b91e-b24205c512c9_files/modules-6d735a6d66d71e4b5154e075915a0fc8.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/homework/Jason/homework1/f1453463-3524-4a82-b91e-b24205c512c9_files/push.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/homework/Jason/homework1/f1453463-3524-4a82-b91e-b24205c512c9_files/rcj-99d43ead6bdf30da8ed5ffcb4f17100c.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/homework/Jason/homework1/f1453463-3524-4a82-b91e-b24205c512c9_files/saved_resource.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/homework/Jason/homework1/week1_homework_solution.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/homework/Jason/homework2/README.md" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/DS502-AI-Engineer" afterPath="$PROJECT_DIR$/DS502-AI-Engineer" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gitignore" afterPath="$PROJECT_DIR$/.gitignore" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/codelab.iml" afterPath="$PROJECT_DIR$/.idea/codelab.iml" />
+    <list default="true" id="ec3f93ba-eb5c-4b6d-a314-8c9391e5b2f6" name="Default" comment="">
+      <change type="DELETED" beforePath="$PROJECT_DIR$/homework/Jason_course/Documents/InceptionV3.pdf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/homework/Jason_course/Documents/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/homework/Jason_course/Documents/VGG.pdf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/homework/Jason_course/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/homework/Jason_course/Week1_Codelab2/adult.data.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/homework/Jason_course/Week1_Codelab2/binarize_data.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/homework/Jason_course/Week1_Codelab2/normalize_data.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/homework/Jason_course/Week1_Codelab2/pima-indians-diabetes.data.csv" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/homework/Jason_course/Week1_Codelab2/rescale_data.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/homework/Jason_course/Week1_Codelab2/standardize_data.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/homework/Jason_course/Week1_Codelab2/week1_homework_jianglong.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/homework/Jason_course/Week2_Codelab2/batch_gradient_descent.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/homework/Jason_course/Week2_Codelab2/pima-indians-diabetes.data.csv" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/homework/Jason_course/Week2_Codelab2/stochastic_gradient_descent.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/homework/Jason_course/Week2_Codelab2/week2_homework_solution.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/homework/Jason_course/Week3_Codelab2/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/homework/Jason_course/Week3_Codelab2/VGG.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/homework/Jason_course/Week3_Codelab2/input_data.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/homework/Jason_course/Week3_Codelab2/tool_show_feature_map.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/homework/Jason_course/Week3_Codelab2/tool_show_size.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/homework/Jason_course/Week3_Codelab2/tool_variable_name.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/homework/Jason_course/Week3_Codelab2/tools.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/homework/Jason_course/Week3_Codelab2/training_and_val.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/homework/Jason_course/Week4_Codelab2/class1_linear_regression.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/homework/Jason_course/Week4_Codelab2/class1_logistic_regression.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/homework/Jason_course/Week4_Codelab2/class1_softmax_regression.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/homework/Jason_course/Week4_Codelab2/week2_mlp_practice_answer.py" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/homework/Chuck/MXNET/mxnet-week1/MXNet Sym.ipynb" afterPath="$PROJECT_DIR$/homework/Chuck/MXNET/mxnet-week1/MXNet Sym.ipynb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/homework/Chuck/MXNET/mxnet-week1/mxnet basic NDArray.ipynb" afterPath="$PROJECT_DIR$/homework/Chuck/MXNET/mxnet-week1/mxnet basic NDArray.ipynb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/homework/Chuck/MXNET/mxnet-week1/mxnet config.ipynb" afterPath="$PROJECT_DIR$/homework/Chuck/MXNET/mxnet-week1/mxnet config.ipynb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/homework/Chuck/MXNET/mxnet-week1/playground.ipynb" afterPath="$PROJECT_DIR$/homework/Chuck/MXNET/mxnet-week1/playground.ipynb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/homework/zhu/homework1/class1_linear_regression.py" afterPath="$PROJECT_DIR$/homework/zhu/homework1/class1_linear_regression.py" />
     </list>
     <ignored path="$PROJECT_DIR$/.idea/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -45,63 +41,7 @@
   </component>
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="README.md" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/DS502-AI-Engineer/DS502-1702/Homework/README.md">
-          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-            <state split_layout="SPLIT">
-              <first_editor relative-caret-position="0">
-                <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-                <folding />
-              </first_editor>
-              <second_editor />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="week1_homework_solution.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/homework/Jason_course/Week1_Codelab2/week1_homework_solution.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="week2_homework_solution.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/DS502-AI-Engineer/DS502-1702/Homework/week2_homework_solution.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="210">
-              <caret line="14" column="0" lean-forward="true" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
-              <folding>
-                <element signature="e#15#33#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="week2_homework_solution.py" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/homework/Jason_course/Week2_Codelab2/week2_homework_solution.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="batch_gradient_descent.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/homework/Jason_course/Week2_Codelab2/batch_gradient_descent.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-328">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -152,6 +92,7 @@
         <option value="$PROJECT_DIR$/homework/zhu/homework1/class1_linear_regression.py" />
         <option value="$PROJECT_DIR$/homework/Chuck/MXNET/mxnet-week2/train_mlp.py" />
         <option value="$PROJECT_DIR$/homework/Chuck/MXNET/mxnet-week2/train_cnn.py" />
+        <option value="$PROJECT_DIR$/homework/Jason_course/Week1_Codelab2/week1_homework_solution.py" />
       </list>
     </option>
   </component>
@@ -248,7 +189,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="Jason_course" />
+              <option name="myItemId" value="Jason" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -266,51 +207,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="Jason_course" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Week3_Codelab2" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ai" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ai" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="homework" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Jason_course" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Week2_Codelab2" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ai" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ai" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="homework" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Jason_course" />
+              <option name="myItemId" value="Jason" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
@@ -448,79 +345,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.week1_homework_solution">
-    <configuration default="false" name="mxnet_mlp_cnn_jiang" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/homework/Chuck/MXNET/mxnet-week2" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="codelab" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/homework/Chuck/MXNET/mxnet-week2/mxnet_mlp_cnn_jiang.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <method />
-    </configuration>
-    <configuration default="false" name="train_cnn" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/homework/Chuck/MXNET/mxnet-week2" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="codelab" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/homework/Chuck/MXNET/mxnet-week2/train_cnn.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <method />
-    </configuration>
-    <configuration default="false" name="class1_linear_regression" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/homework/zhu/homework1" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="codelab" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/homework/zhu/homework1/class1_linear_regression.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <method />
-    </configuration>
-    <configuration default="false" name="class1_logistic_regression" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/homework/zhu/homework1" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="codelab" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/homework/zhu/homework1/class1_logistic_regression.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <method />
-    </configuration>
+  <component name="RunManager" selected="Python.rescale_data">
     <configuration default="false" name="week1_homework_solution" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -534,6 +359,78 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="codelab" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/homework/Jason/homework1/week1_homework_solution.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <method />
+    </configuration>
+    <configuration default="false" name="week1_homework_solution (1)" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/homework/Jason_course/Week1_Codelab2" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="codelab" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/homework/Jason_course/Week1_Codelab2/week1_homework_jianglong.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <method />
+    </configuration>
+    <configuration default="false" name="standardize_data" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/homework/Jason_course/Week1_Codelab2" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="codelab" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/homework/Jason_course/Week1_Codelab2/standardize_data.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <method />
+    </configuration>
+    <configuration default="false" name="normalize_data" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/homework/Jason_course/Week1_Codelab2" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="codelab" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/homework/Jason_course/Week1_Codelab2/normalize_data.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <method />
+    </configuration>
+    <configuration default="false" name="rescale_data" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/homework/Jason_course/Week1_Codelab2" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="codelab" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/homework/Jason_course/Week1_Codelab2/rescale_data.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -688,19 +585,19 @@
     <list size="7">
       <item index="0" class="java.lang.String" itemvalue="Python.train_mlp (1)" />
       <item index="1" class="java.lang.String" itemvalue="Python.train_mlp" />
-      <item index="2" class="java.lang.String" itemvalue="Python.mxnet_mlp_cnn_jiang" />
-      <item index="3" class="java.lang.String" itemvalue="Python.train_cnn" />
-      <item index="4" class="java.lang.String" itemvalue="Python.class1_linear_regression" />
-      <item index="5" class="java.lang.String" itemvalue="Python.class1_logistic_regression" />
-      <item index="6" class="java.lang.String" itemvalue="Python.week1_homework_solution" />
+      <item index="2" class="java.lang.String" itemvalue="Python.week1_homework_solution" />
+      <item index="3" class="java.lang.String" itemvalue="Python.week1_homework_solution (1)" />
+      <item index="4" class="java.lang.String" itemvalue="Python.standardize_data" />
+      <item index="5" class="java.lang.String" itemvalue="Python.normalize_data" />
+      <item index="6" class="java.lang.String" itemvalue="Python.rescale_data" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Python.week1_homework_solution" />
-        <item index="1" class="java.lang.String" itemvalue="Python.train_cnn" />
-        <item index="2" class="java.lang.String" itemvalue="Python.class1_logistic_regression" />
-        <item index="3" class="java.lang.String" itemvalue="Python.class1_linear_regression" />
-        <item index="4" class="java.lang.String" itemvalue="Python.mxnet_mlp_cnn_jiang" />
+        <item index="0" class="java.lang.String" itemvalue="Python.rescale_data" />
+        <item index="1" class="java.lang.String" itemvalue="Python.normalize_data" />
+        <item index="2" class="java.lang.String" itemvalue="Python.standardize_data" />
+        <item index="3" class="java.lang.String" itemvalue="Python.week1_homework_solution (1)" />
+        <item index="4" class="java.lang.String" itemvalue="Python.week1_homework_solution" />
       </list>
     </recent_temporary>
   </component>
@@ -988,7 +885,21 @@
       <option name="project" value="LOCAL" />
       <updated>1500838779695</updated>
     </task>
-    <option name="localTasksCounter" value="40" />
+    <task id="LOCAL-00040" summary="new update on july 21">
+      <created>1500838845715</created>
+      <option name="number" value="00040" />
+      <option name="presentableId" value="LOCAL-00040" />
+      <option name="project" value="LOCAL" />
+      <updated>1500838845715</updated>
+    </task>
+    <task id="LOCAL-00041" summary="new update on july 21">
+      <created>1500840991978</created>
+      <option name="number" value="00041" />
+      <option name="presentableId" value="LOCAL-00041" />
+      <option name="project" value="LOCAL" />
+      <updated>1500840991978</updated>
+    </task>
+    <option name="localTasksCounter" value="42" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -1010,24 +921,24 @@
     <layout>
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32896653" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Debug Logs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32896653" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32751092" sideWeight="0.5143061" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.36865023" sideWeight="0.48569384" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32896653" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32896653" sideWeight="0.49427754" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Execute Anonymous" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.29257643" sideWeight="0.4899857" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32751092" sideWeight="0.5143061" order="8" side_tool="true" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.36865023" sideWeight="0.48569384" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32896653" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3280116" sideWeight="0.49427754" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Execute Anonymous" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.29172716" sideWeight="0.4899857" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.33333334" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3280116" sideWeight="0.49713877" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3988355" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Data View" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Salesforce" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Salesforce" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32896653" sideWeight="0.49713877" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
@@ -1051,7 +962,8 @@
     <MESSAGE value="new update on july 12" />
     <MESSAGE value="new update on july 13" />
     <MESSAGE value="new update on july 17" />
-    <option name="LAST_COMMIT_MESSAGE" value="new update on july 17" />
+    <MESSAGE value="new update on july 21" />
+    <option name="LAST_COMMIT_MESSAGE" value="new update on july 21" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1074,22 +986,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$APPLICATION_HOME_DIR$/helpers/pydev/pydevd.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1479">
-          <caret line="1017" column="0" lean-forward="false" selection-start-line="1017" selection-start-column="0" selection-end-line="1017" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/homework/Chuck/MXNET_course/mxnet-week2/MLP" />
-    <entry file="file://$PROJECT_DIR$/homework/Chuck/MXNET_course/mxnet-week2/CNN" />
-    <entry file="file://$PROJECT_DIR$/homework/Chuck/MXNET_course/mxnet-week2/mlp_sym.py" />
-    <entry file="file://$PROJECT_DIR$/homework/Chuck/MXNET_course/mxnet-week1/mnist.py" />
-    <entry file="file://$PROJECT_DIR$/DS502-AI-Engineer/DS502-1702/MXNET_course/mxnet-week2/test.jpg">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/homework/Chuck/MXNET_course/mxnet-week2/cnn_sym.py" />
     <entry file="file://$PROJECT_DIR$/homework/Chuck/MXNET_course/mxnet-week2/train_cnn.py" />
     <entry file="file://$PROJECT_DIR$/homework/Chuck/MXNET_course/mxnet-week2/data.py" />
@@ -1349,6 +1245,32 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/homework/Jason_course/Week2_Codelab2/batch_gradient_descent.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-328">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/homework/Jason_course/Week2_Codelab2/week2_homework_solution.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/DS502-AI-Engineer/DS502-1702/Homework/week2_homework_solution.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="14" column="0" lean-forward="true" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
+          <folding>
+            <element signature="e#15#33#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/DS502-AI-Engineer/DS502-1702/Homework/README.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
@@ -1360,7 +1282,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/homework/Jason_course/Week1_Codelab2/week1_homework_solution.py">
+    <entry file="file://$PROJECT_DIR$/homework/Jason_course/Week1_Codelab2/binarize_data.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -1368,28 +1290,50 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/homework/Jason_course/Week2_Codelab2/batch_gradient_descent.py">
+    <entry file="file://$PROJECT_DIR$/homework/Jason_course/Week1_Codelab2/adult.data.txt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-328">
+        <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/DS502-AI-Engineer/DS502-1702/Homework/week2_homework_solution.py">
+    <entry file="file://$PROJECT_DIR$/homework/Jason_course/Week1_Codelab2/week1_homework_jianglong.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="14" column="0" lean-forward="true" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
-          <folding>
-            <element signature="e#15#33#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="465">
+          <caret line="31" column="43" lean-forward="false" selection-start-line="31" selection-start-column="43" selection-end-line="31" selection-end-column="43" />
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/homework/Jason_course/Week2_Codelab2/week2_homework_solution.py">
+    <entry file="file://$PROJECT_DIR$/homework/Jason_course/Week1_Codelab2/standardize_data.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/homework/Jason_course/Week1_Codelab2/pima-indians-diabetes.data.csv">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/homework/Jason_course/Week1_Codelab2/normalize_data.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-514">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/homework/Jason_course/Week1_Codelab2/rescale_data.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="171">
+          <caret line="23" column="29" lean-forward="false" selection-start-line="23" selection-start-column="9" selection-end-line="23" selection-end-column="29" />
           <folding />
         </state>
       </provider>
